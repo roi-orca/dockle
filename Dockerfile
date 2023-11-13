@@ -16,4 +16,5 @@ RUN apk --no-cache add ca-certificates shadow
 #USER dockle
 LABEL X=1
 LABEL Y=2
+LABEL Z=3
 ENTRYPOINT ["dockle"]

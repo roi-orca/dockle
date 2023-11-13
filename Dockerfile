@@ -15,4 +15,5 @@ RUN apk --no-cache add ca-certificates shadow
 #RUN addgroup -S docker && adduser -S -G docker dockle && usermod -aG root dockle
 #USER dockle
 LABEL X=1
+LABEL Y=2
 ENTRYPOINT ["dockle"]
